@@ -1,0 +1,114 @@
+
+/* PAGE */
+.about {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+/* TITLE */
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: #12031c;
+}
+
+/* 2 COLUMN LAYOUT */
+.about-container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* LEFT SIDE */
+.about-left {
+  flex: 1;
+}
+
+/* WHO I AM CARD */
+.info-card {
+  background: #fff;
+  border: 1px solid #f3e8ff;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  height: 100%;
+}
+
+.info-card h3 {
+  color: #09020e;
+  margin-bottom: 15px;
+}
+
+.info-card p {
+  color: #6b6375;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* RIGHT SIDE */
+.about-right {
+  flex: 1;
+}
+
+/* TECH STACK TITLE */
+.about-right h3 {
+  color: #09020e;
+  margin-bottom: 15px;
+}
+
+/* STACK WRAPPER (VERTICAL CARDS) */
+.stack-card {
+  background: #fff;
+  border: 1px solid #f3e8ff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.stack-card:hover {
+  transform: translateY(-5px);
+}
+
+/* CARD TITLE */
+.stack-card h4 {
+  margin-bottom: 10px;
+  color: #12031c;
+}
+
+/* TAGS */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags span {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #f3e8ff;
+  font-size: 13px;
+  color: #090909;
+  transition: 0.3s;
+}
+.tags span:hover {
+  background: #3c198e;
+  color: white;
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .tags {
+    justify-content: center;
+  }
+}

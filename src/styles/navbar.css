@@ -1,0 +1,162 @@
+
+/* NAVBAR CONTAINER */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 50px;
+  background: #ffffff;
+  border-bottom: 1px solid #f1f1f1;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* LOGO WRAPPER */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/* LOGO IMAGE */
+.logo img {
+  height: 45px;
+  width: 45px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #f3e8ff;
+  transition: 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.05);
+  border-color: #ff8fc7;
+}
+
+/* LOGO TEXT */
+.logo h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #430c59;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.logo:hover h2 {
+  color: #bf40bf;
+}
+
+/* NAV LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+/* LINK STYLE */
+.nav-links li a {
+  text-decoration: none;
+  color: #430c59;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+/* HOVER */
+.nav-links li a:hover {
+  color: #97499f;
+}
+
+/* UNDERLINE ANIMATION */
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: #ff8fc7;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+/* CV BUTTON */
+.cv-btn {
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #b57edc, #ff8fc7);
+  color: white !important;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cv-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ========================= */
+/* MOBILE RESPONSIVENESS */
+/* ========================= */
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #430c59;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 15px;
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  min-width: 180px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #430c59;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.mobile-menu a:hover {
+  color: #ff8fc7;
+}
+
+/* SHOW MOBILE MENU */
+.mobile-menu.active {
+  display: flex;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
