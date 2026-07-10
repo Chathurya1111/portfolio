@@ -1,16 +1,43 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built to showcase my projects, technical skills, experience, and UI/UX design work.
 
-Currently, two official plugins are available:
+##  Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Portfolio](https://chathurya-dhananjani.vercel.app/)
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for desktop, tablet, and mobile
+- Modern UI with smooth animations
+- Interactive typewriter effect
+- Project showcase with detailed project pages
+- Contact section
+- Downloadable CV
+- Social media integration
 
-## Expanding the ESLint configuration
+##  Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- React Router
+- React Icons
+- React Simple Typewriter
+
+##  Project Structure
+- src/
+- │
+- ├── assets/
+- ├── components/
+- ├── pages/
+- ├── styles/
+- └── App.jsx
+
+## Author
+
+- Chathurya Wijayathilake
+
+- GitHub: https://github.com/Chathurya1111
+- LinkedIn: https://www.linkedin.com/in/chathurya-dhananjani-898115314/
