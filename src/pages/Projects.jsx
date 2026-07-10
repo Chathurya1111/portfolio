@@ -9,7 +9,7 @@ const projectsData = [
    
     id: 1,
     title: "Personal Portfolio Website",
-    category: "Web Development",
+    category: "web",
     description: "A responsive personal portfolio website designed and developed to showcase my projects, technical skills, experience, and UI/UX design capabilities.",
     tech: ["React", "Vite", "JavaScript", "CSS"],
     image: "/portfolio.png",
@@ -20,7 +20,7 @@ const projectsData = [
    
     id: 2,
     title: "Event Management UI",
-    category: "UI/UX Design",
+    category: "uiux",
     description: "A modern UI/UX design concept for an event management platform that allows users to discover, organize, and manage events easily.",
     tech: ["Figma", "UI Design", "UX Research", "Prototyping"],
     image: "/figma.png",
