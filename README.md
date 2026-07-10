@@ -21,6 +21,7 @@ A modern and responsive personal portfolio website built to showcase my projects
 - React.js
 - Vite
 - JavaScript (ES6+)
+- HTML5
 - CSS3
 - React Router
 - React Icons
