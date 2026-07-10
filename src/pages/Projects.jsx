@@ -4,36 +4,30 @@ import { FaGithub } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 const projectsData = [
+  
   {
+   
     id: 1,
-    title: "Student Marks System",
-    category: "java",
-    description: "A Java-based student marks management system.",
-    tech: ["Java", "OOP"],
-    image: "/project.png",
-    github: "https://github.com/Chathurya1111/Student-Mark-Management-System",
+    title: "Personal Portfolio Website",
+    category: "Web Development",
+    description: "A responsive personal portfolio website designed and developed to showcase my projects, technical skills, experience, and UI/UX design capabilities.",
+    tech: ["React", "Vite", "JavaScript", "CSS"],
+    image: "/portfolio.png",
+    github: "https://github.com/Chathurya1111/portfolio.git",
     status: "Completed"
   },
   {
+   
     id: 2,
-    title: "Portfolio Website",
-    category: "web",
-    description: "Personal portfolio built using React.",
-    tech: ["React", "CSS"],
-    image: "/projects/portfolio.jpg",
-    github: "https://github.com/yourrepo",
-    status: "Ongoing"
-  },
-  {
-    id: 3,
-    title: "E-Commerce UI",
-    category: "uiux",
-    description: "UI design for an online store.",
-    tech: ["Figma"],
+    title: "Event Management UI",
+    category: "UI/UX Design",
+    description: "A modern UI/UX design concept for an event management platform that allows users to discover, organize, and manage events easily.",
+    tech: ["Figma", "UI Design", "UX Research", "Prototyping"],
     image: "/figma.png",
     github: "",
     status: "Completed"
-    
+  
+      
   } 
   
 ];
